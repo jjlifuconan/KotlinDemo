@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+
+    <!--红框1-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:background="#eb413d"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+
+
+
+    <!--红框2-->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="200dp"
+        android:background="#634232"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</LinearLayout>
